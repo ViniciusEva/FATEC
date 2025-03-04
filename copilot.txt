@@ -1,0 +1,4 @@
+O microsoft copilot permite que o usuário crie uma IA que gere respostas automáticas a um tipo específico da área
+de atuação dela. A IA faz respostas via CHATBOT, se especificarmos bem no comando o que ela tem que fazer, não
+há problema algum. E os meio para criar esse Ia é por meio de uma descrição ou por meio de um modelo já pronto
+feito pela microsoft.

@@ -1,0 +1,9 @@
+Olá, durante o estudo das aulas a respeito do Microsoft Copilot, aprendemos a como montar sua IA generativa. Nela,
+escolhemos como queremos que inicie uma conversa por meio de gatilhos iniciais, condições, mensagens de textos ou
+de múltipla escolhas, configuração da IA caso ela detecte uma resposta inesperada, especificidade e etc.
+
+Abaixo eu criei uma IA bem simples mesmo, que diz a respeito de animes, que é uma área que gosto bastante. A criei
+com o intuito de inicializar, logo após irei aprimorá-la para ser útil e usável.
+
+Link do agente:
+https://copilotstudio.microsoft.com/environments/Default-cf72e2bd-7a2b-4783-bdeb-39d57b07f76f/bots/17ccae37-fef9-ef11-be1f-000d3a5c430d/overview

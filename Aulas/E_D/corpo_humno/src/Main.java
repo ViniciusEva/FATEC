@@ -3,7 +3,7 @@ public class Main {
 
         // Criando uma instância da classe CorpoHumano
         // Massa: 2 kg, Volume: 0.07 m³
-        CorpoHumano pessoa = new CorpoHumano(2.0, 0.07);
+        CorpoHumano pessoa = new CorpoHumano(70.0, 0.07);
 
         // Acessando as informações usando os métodos getters
         System.out.println("--- Informações Iniciais ---");
@@ -26,4 +26,5 @@ public class Main {
         pessoa.setMassa(-10.0);
         pessoa.setVolume(0.0);
     }
+
 }

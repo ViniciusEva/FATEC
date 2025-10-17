@@ -1,9 +1,81 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
+public class AppA {
+    public static void main(String[] args) {
+    
+        filaPrioridade();
+        filaDupla();
+    }
 
-public class App {
-    public static void main(String[] args) throws Exception {
+    public static void filaDupla(){
+        Deque<String> filaDupla = new ArrayDeque<>();
+        //Deque: Double-Ended Queue (Fila de duas pontas)
+
+        //Adicionar elementos na fila
+        //no fim
+        filaDupla.addLast("Francisco");
+        filaDupla.addLast("Daisy");
+        filaDupla.addLast("Rogério");
+
+        //no inicio
+        filaDupla.addFirst("Mária");
+
+        //Exibir os elementos da fila em forma de texto
+        System.out.println(filaDupla.toString());
+
+        //Exibir o primeiro elemento
+        System.out.println(filaDupla.peekFirst());
+
+        //Exibir o ultimo Elemento
+        System.out.println(filaDupla.peekLast());
+
+        //remover o primeiro elemento
+        filaDupla.removeFirst();
+        System.out.println(filaDupla.toString());
+
+        //remover o ultimo elemento
+        filaDupla.removeLast();
+        System.out.println(filaDupla.toString());
+
+        //LIFO e FIFO: Fila dupla mistura esses dois conceitos
+
+
+
+
+
+    }
+
+    public static void filaPrioridade(){
+        PriorityQueue<Integer> filaPriori = new PriorityQueue<>();
+
+        filaPriori.add(5);
+        filaPriori.add(10);
+        filaPriori.add(1);
+        filaPriori.add(2);
+        filaPriori.add(15);
+        
+        System.out.println("Primeiro a ser atendido: "+filaPriori.peek());
+
+        //Percorrendo uma fila de prioridade
+        while(filaPriori.isEmpty()){
+            System.out.println(" "+filaPriori.poll());
+        }
+
+
+
+
+
+
+
+
+
+    }
+
+    public void filaSimples(){
         Queue<String> veiculos = new LinkedList<>();
 
         //Adicionando veículos da fila

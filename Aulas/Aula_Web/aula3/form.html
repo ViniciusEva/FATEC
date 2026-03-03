@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <a href="index.html">Voltar ao Inicio</a>
+     <form action="#" method="GET"> <!--POST E GET -->
+        <div id="nome">
+            <label>Nome Completo</label>
+            <input type="text" name="nome">
+        </div>
+
+        <div id="data_nascimento">
+            <label>Data Nascimento</label>
+            <input type="date" name="data_nascimento">
+        </div>
+
+        <div>
+            <label>Sexo</label>
+            <input type="radio" name="sexo" value="Masculino">Masculino
+            <input type="radio" name="sexo" value="Feminino">Feminino
+        </div>
+
+        <div id="escolaridade">
+            <label>Escolaridade</label>
+            <select name="escolaridade">
+            <option value="fundamental">Ensino Fundametal</option>
+            <option value="medio">Ensino Medio</option>
+            <option value="superior">Ensino Superior</option>
+        </select>
+        </div>
+
+        <div id="comentários">
+            <label>Comentários</label>
+            <textarea rows="5"></textarea>
+        </div>
+
+        <div id="termos">
+            Aceita os Termos <input type="checkbox" name="termos">
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
